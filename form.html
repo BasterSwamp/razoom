@@ -13,6 +13,43 @@
 
   <body>
     <div class="wrapper">
+      <header class="header">
+  <div class="header__content container">
+    <a href="http://localhost:3000/" class="header__logo">
+      <picture>
+        <source srcset="img/logo-mob.svg" media="(max-width: 767.98px)" />
+        <img src="img/logo.svg" alt="logo" />
+      </picture>
+    </a>
+    <nav class="header__nav">
+      <ul>
+        <li><a href="##">Наші послуги</a></li>
+        <li><a href="##">Лабораторія</a></li>
+        <li><a href="##">Аптека</a></li>
+        <li><a href="##">Спеціальні пропозиції</a></li>
+        <li><a href="##">Постачальникам</a></li>
+        <li><a href="##">Вакансії</a></li>
+        <li><a href="##">Контакти</a></li>
+      </ul>
+    </nav>
+    <div class="header__right">
+      <div class="header__language">
+        <a href="##">UA</a>
+        <span></span>
+        <a href="##">EN</a>
+      </div>
+      <a href="http://localhost:3000/form.html" class="header__btn-link btn"
+        >Записатись</a
+      >
+      <div class="header__body-burg">
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
       <main class="main">
         <div class="appointment">
           <div class="appointment__content container">
@@ -27,12 +64,10 @@
               </div>
               <div class="appointment__item">
                 <label for="textarea">Повідомлення</label>
-                <div class="appointment__bottom">
-                  <textarea name="textarea" id="textarea"></textarea>
-                  <div class="appointment__button">
-                    <a href="##" class="appointment__btn btn">Відправити</a>
-                  </div>
-                </div>
+                <textarea name="textarea" id="textarea"></textarea>
+              </div>
+              <div class="appointment__button">
+                <a href="##" class="appointment__btn btn">Відправити</a>
               </div>
             </div>
             <div class="appointment__columns">
@@ -53,7 +88,9 @@
                       />
                     </svg>
                     <div class="appointment__data">
-                      <span>+38 044 33 77 300 </span>
+                      <span
+                        ><a href="tel:380443377300">+38 044 33 77 300 </a></span
+                      >
                       <span> +38 063 33 77 300 (Viber, Telegram)</span>
                     </div>
                   </div>
@@ -64,7 +101,7 @@
                       />
                     </svg>
                     <div class="appointment__data">
-                      <span>info@marek.vet</span>
+                      <a href="mailto:info@marek.vet">info@marek.vet</a>
                     </div>
                   </div>
                 </div>
@@ -79,7 +116,7 @@
                       />
                     </svg>
                   </a>
-                  <a href="">
+                  <a href="##">
                     <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M18 0.665039C8.4895 0.665039 0.75 8.40454 0.75 17.915C0.75 27.4255 8.4895 35.165 18 35.165C27.5105 35.165 35.25 27.4255 35.25 17.915C35.25 8.40454 27.5105 0.665039 18 0.665039ZM18 3.54004C25.9566 3.54004 32.375 9.95848 32.375 17.915C32.3785 21.3564 31.1445 24.6842 28.8982 27.2913C26.6519 29.8983 23.543 31.6108 20.139 32.1161V22.1068H24.233L24.8756 17.9481H20.139V15.6769C20.139 13.9519 20.7068 12.418 22.3211 12.418H24.9158V8.78979C24.4601 8.72798 23.4956 8.59429 21.6728 8.59429C17.8663 8.59429 15.6353 10.6039 15.6353 15.1838V17.9481H11.7224V22.1068H15.6353V32.0802C12.2784 31.5276 9.22728 29.7996 7.02712 27.2047C4.82696 24.6098 3.6211 21.3171 3.625 17.915C3.625 9.95848 10.0434 3.54004 18 3.54004Z"

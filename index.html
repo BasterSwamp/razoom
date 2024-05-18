@@ -10,32 +10,47 @@
   <link rel="stylesheet" href="css/style.min.css" />
   <title>Головна</title>
 </head>
+
+
   <body>
     <div class="wrapper">
       <header class="header">
   <div class="header__content container">
-    <a href="index.html" class="header__logo">
-      <img src="img/logo.svg" alt="logo" />
+    <a href="http://localhost:3000/" class="header__logo">
+      <picture>
+        <source srcset="img/logo-mob.svg" media="(max-width: 767.98px)" />
+        <img src="img/logo.svg" alt="logo" />
+      </picture>
     </a>
     <nav class="header__nav">
-      <a href="##">Наші послуги</a>
-      <a href="##">Лабораторія</a>
-      <a href="##">Аптека</a>
-      <a href="##">Спеціальні пропозиції</a>
-      <a href="##">Постачальникам</a>
-      <a href="##">Вакансії</a>
-      <a href="##">Контакти</a>
+      <ul>
+        <li><a href="##">Наші послуги</a></li>
+        <li><a href="##">Лабораторія</a></li>
+        <li><a href="##">Аптека</a></li>
+        <li><a href="##">Спеціальні пропозиції</a></li>
+        <li><a href="##">Постачальникам</a></li>
+        <li><a href="##">Вакансії</a></li>
+        <li><a href="##">Контакти</a></li>
+      </ul>
     </nav>
-    <div class="header__language">
-      <a href="##">UA</a>
-      <span></span>
-      <a href="##">EN</a>
+    <div class="header__right">
+      <div class="header__language">
+        <a href="##">UA</a>
+        <span></span>
+        <a href="##">EN</a>
+      </div>
+      <a href="http://localhost:3000/form.html" class="header__btn-link btn"
+        >Записатись</a
+      >
+      <div class="header__body-burg">
+        <div class="header__burger">
+          <span></span>
+        </div>
+      </div>
     </div>
-    <a href="form.html" class="header__btn-link btn"
-      >Записатись</a
-    >
   </div>
 </header>
+
       <main class="main">
         <svg display="none" xmlns="http://www.w3.org/2000/svg">
           <symbol id="paw" viewBox="0 0 36 40">
@@ -137,21 +152,30 @@
                 </li>
               </ul>
               <a
-                href="form.html"
+                href="http://localhost:3000/form.html"
                 class="brief-info__btn btn"
                 >Записатись</a
               >
+              <a href="tel:380443377300" class="brief-info__phone">
+                <picture>
+                  <source
+                    srcset="img/phone-icon-mob.svg"
+                    media="(max-width: 479.98px)"
+                  />
+                  <img src="img/phone-icon.svg" alt="" />
+                </picture>
+              </a>
             </div>
-            <a href="tel:380443377300" class="brief-info__right">
-              <img src="img/phone-icon.svg" alt="" />
-            </a>
           </div>
         </div>
         <div class="player">
           <div class="container">
             <div class="player__container">
               <div class="player__content">
-                <iframe src="https://www.360expert.kiev.ua/temp/razoom_03/" frameborder="0"></iframe>
+                <iframe
+                  src="https://www.360expert.kiev.ua/temp/razoom_03/"
+                  frameborder="0"
+                ></iframe>
               </div>
             </div>
           </div>
@@ -177,7 +201,7 @@
                   alt="services-picture"
                   class="services__photo"
                 />
-                <img src="img/bone.png" alt="bone" class="services__icon" />
+                <img src="img/bone.svg" alt="bone" class="services__icon" />
               </div>
             </div>
           </div>
@@ -371,7 +395,7 @@
                   alt="services-picture"
                   class="laboratory__photo"
                 />
-                <img src="img/bowl.png" alt="bone" class="laboratory__icon" />
+                <img src="img/bowl.svg" alt="bowl" class="laboratory__icon" />
               </div>
             </div>
           </div>
@@ -407,6 +431,9 @@
               <p><span>Вартість:</span> від 100 грн</p>
               <svg><use xlink:href="#paw"></use></svg>
             </section>
+            <div class="laboratory__pet pet2">
+              <img src="img/cat.png" alt="" />
+            </div>
             <section>
               <div class="laboratory__cat-title">Клінічний аналіз крові</div>
               <p><span>Обладнання</span> гематологічний аналізатор IDEXX</p>
@@ -436,9 +463,7 @@
             <div class="laboratory__pet pet1">
               <img src="img/paws-lab.svg" alt="" />
             </div>
-            <div class="laboratory__pet pet2">
-              <img src="img/cat.png" alt="" />
-            </div>
+
             <div class="laboratory__pet pet3">
               <img src="img/dog.png" alt="" />
             </div>
@@ -531,31 +556,202 @@
             <div class="brandslider__gallary">
               <div class="brandslider__wrapper swiper-wrapper">
                 <section class="swiper-slide">
-                  <img src="img/brandslider1.png" alt="slide-photo" />
+                  <img
+                    src="img/brand-slide/brandslider1.png"
+                    alt="slide-photo"
+                  />
                 </section>
                 <section class="swiper-slide">
-                  <img src="img/brandslider2.png" alt="slide-photo" />
+                  <img
+                    src="img/brand-slide/brandslider2.png"
+                    alt="slide-photo"
+                  />
                 </section>
                 <section class="swiper-slide">
-                  <img src="img/brandslider3.png" alt="slide-photo" />
+                  <img
+                    src="img/brand-slide/brandslider3.png"
+                    alt="slide-photo"
+                  />
                 </section>
                 <section class="swiper-slide">
-                  <img src="img/brandslider4.png" alt="slide-photo" />
+                  <img
+                    src="img/brand-slide/brandslider4.png"
+                    alt="slide-photo"
+                  />
                 </section>
                 <section class="swiper-slide">
-                  <img src="img/brandslider5.png" alt="slide-photo" />
+                  <img
+                    src="img/brand-slide/brandslider5.png"
+                    alt="slide-photo"
+                  />
                 </section>
                 <section class="swiper-slide">
-                  <img src="img/brandslider6.png" alt="slide-photo" />
+                  <img
+                    src="img/brand-slide/brandslider6.png"
+                    alt="slide-photo"
+                  />
                 </section>
                 <section class="swiper-slide">
-                  <img src="img/brandslider7.jpg" alt="slide-photo" />
+                  <img
+                    src="img/brand-slide/brandslider7.png"
+                    alt="slide-photo"
+                  />
                 </section>
                 <section class="swiper-slide">
-                  <img src="img/brandslider8.jpg" alt="slide-photo" />
+                  <img
+                    src="img/brand-slide/brandslider8.png"
+                    alt="slide-photo"
+                  />
                 </section>
                 <section class="swiper-slide">
-                  <img src="img/brandslider9.jpg" alt="slide-photo" />
+                  <img
+                    src="img/brand-slide/brandslider9.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider10.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider11.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider12.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider13.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider14.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider15.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider16.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider17.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider18.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider19.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider20.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider21.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider22.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider23.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider24.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider25.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider26.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider27.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider28.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider29.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider30.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider31.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider32.png"
+                    alt="slide-photo"
+                  />
+                </section>
+                <section class="swiper-slide">
+                  <img
+                    src="img/brand-slide/brandslider33.png"
+                    alt="slide-photo"
+                  />
                 </section>
               </div>
             </div>
@@ -596,7 +792,13 @@
         <div class="offers container">
           <div class="offers__title green__title">СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</div>
           <div class="offers__image">
-            <img src="img/offers.jpg" alt="offers-picture" />
+            <picture>
+              <source
+                srcset="img/offers-mob.jpg"
+                media="(max-width: 479.98px)"
+              />
+              <img src="img/offers.jpg" alt="offers-picture" />
+            </picture>
           </div>
         </div>
         <div class="suppliers">
@@ -690,7 +892,7 @@
                   alt="vacancies-picture"
                   class="vacancies__img"
                 />
-                <img src="img/toy.png" alt="toy" class="vacancies__icon" />
+                <img src="img/toy.svg" alt="toy" class="vacancies__icon" />
               </div>
             </div>
           </div>
@@ -699,7 +901,7 @@
               <div class="vacancies__photo">
                 <img src="img/profile1.png" alt="profile-photo" />
               </div>
-              <div class="profile__content">
+              <div class="vacancies__content">
                 <span>ВЕТЕРИНАР</span>
                 <div>
                   <a href="##"
@@ -725,7 +927,7 @@
               <div class="vacancies__photo">
                 <img src="img/profile2.png" alt="profile-photo" />
               </div>
-              <div class="profile__content">
+              <div class="vacancies__content">
                 <span>ВЕТЕРИНАР</span>
                 <div>
                   <a href="##">
@@ -769,7 +971,7 @@
               />
             </svg>
             <div class="footer__data">
-              <span>+38 044 33 77 300 </span>
+              <span><a href="tel:380443377300">+38 044 33 77 300 </a></span>
               <span> +38 063 33 77 300 (Viber, Telegram)</span>
             </div>
           </div>
@@ -780,7 +982,7 @@
               />
             </svg>
             <div class="footer__data">
-              <span>info@marek.vet</span>
+              <a href="mailto:info@marek.vet">info@marek.vet</a>
             </div>
           </div>
         </div>
@@ -795,7 +997,7 @@
               />
             </svg>
           </a>
-          <a href="">
+          <a href="##">
             <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M18 0.665039C8.4895 0.665039 0.75 8.40454 0.75 17.915C0.75 27.4255 8.4895 35.165 18 35.165C27.5105 35.165 35.25 27.4255 35.25 17.915C35.25 8.40454 27.5105 0.665039 18 0.665039ZM18 3.54004C25.9566 3.54004 32.375 9.95848 32.375 17.915C32.3785 21.3564 31.1445 24.6842 28.8982 27.2913C26.6519 29.8983 23.543 31.6108 20.139 32.1161V22.1068H24.233L24.8756 17.9481H20.139V15.6769C20.139 13.9519 20.7068 12.418 22.3211 12.418H24.9158V8.78979C24.4601 8.72798 23.4956 8.59429 21.6728 8.59429C17.8663 8.59429 15.6353 10.6039 15.6353 15.1838V17.9481H11.7224V22.1068H15.6353V32.0802C12.2784 31.5276 9.22728 29.7996 7.02712 27.2047C4.82696 24.6098 3.6211 21.3171 3.625 17.915C3.625 9.95848 10.0434 3.54004 18 3.54004Z"
