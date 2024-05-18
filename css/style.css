@@ -678,8 +678,9 @@ body.active .header__body-burg {
   .btn-next,
   .btn-prev {
     transform: translate(-50%, 50%);
-    bottom: -87px;
+    bottom: -40px;
     top: 100%;
+    margin-top: 45px;
   }
   .btn-prev {
     left: 40px;
