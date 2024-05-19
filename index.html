@@ -17,10 +17,7 @@
       <header class="header">
   <div class="header__content container">
     <a href="index.html" class="header__logo">
-      <picture>
-        <source srcset="img/logo-mob.svg" media="(max-width: 767.98px)" />
-        <img src="img/logo.svg" alt="logo" />
-      </picture>
+      <img src="img/logo.svg" alt="logo" />
     </a>
     <nav class="header__nav">
       <ul>
@@ -39,9 +36,7 @@
         <span></span>
         <a href="##">EN</a>
       </div>
-      <a href="form.html" class="header__btn-link btn"
-        >Записатись</a
-      >
+      <a href="form.html" class="header__btn-link btn">Записатись</a>
       <div class="header__body-burg">
         <div class="header__burger">
           <span></span>
@@ -57,6 +52,21 @@
             <g>
               <path
                 d="M30.9121 6.57894C30.8445 6.54488 30.7741 6.51198 30.7031 6.48184C27.7375 5.52887 24.7377 7.62346 23.1948 10.0465C21.6743 12.1826 21.1419 15.6711 23.3996 17.5085C23.7294 17.7699 24.127 17.9373 24.5363 18.0274C28.1129 18.5981 31.3592 15.706 32.4803 12.4905C33.3609 10.4954 33.0037 7.63857 30.9121 6.57894ZM19.3146 0.672299C17.6015 -0.170702 15.3869 0.855774 14.2759 2.32853C12.0403 5.22767 11.4179 9.95721 14.218 12.7082C14.4944 12.939 14.8133 13.1145 15.1537 13.2305C17.5992 14.0319 19.8711 12.0079 20.8416 9.92246C22.1782 7.20107 22.4071 3.366 20.0126 1.15235C19.793 0.951216 19.5593 0.792851 19.3146 0.672299ZM33.4731 19.63C30.4555 18.2754 26.923 20.1459 25.2114 22.7223C23.7961 24.4862 23.4693 27.6641 25.6309 28.994C28.7792 30.5914 32.6609 28.3642 34.2533 25.5346C35.4459 23.7357 35.5327 20.8408 33.4731 19.63ZM7.52343 6.88645C6.28426 6.225 4.66988 6.33034 3.60143 7.38329C0.746317 10.2009 0.683857 15.6277 3.89716 18.2138C5.25961 19.2522 7.17541 18.7905 8.26929 17.6022C10.6016 15.0558 10.7822 10.7778 8.75084 8.00644C8.43647 7.52384 8.00807 7.14595 7.52308 6.88713L7.52343 6.88645ZM17.467 19.8155C15.0238 18.5446 11.8977 18.4872 9.35327 19.5042C6.52335 20.7604 3.81787 22.5298 1.85281 24.9557C0.167357 26.5601 0.499048 29.5941 2.57859 30.6984C5.05241 32.0808 8.11104 31.4852 10.6743 32.6624C12.9608 33.4469 14.2811 35.5396 15.8082 37.2562C17.0668 38.7975 19.446 39.7032 21.1857 38.3909C22.7666 36.9533 22.7998 34.5561 22.8317 32.5618C22.5531 29.152 22.2272 25.5508 20.4092 22.5623C19.69 21.3466 18.6604 20.436 17.467 19.8155Z"
+              />
+            </g>
+          </symbol>
+          <symbol id="arrow" viewBox="0 0 44 44">
+            <g>
+              <path
+                d="M22 42C33.046 42 42 33.046 42 22C42 10.954 33.046 2 22 2C10.954 2 2 10.954 2 22C2 33.046 10.954 42 22 42Z"
+                stroke-width="4"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M25 31L16 22L25 13"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               />
             </g>
           </symbol>
@@ -89,35 +99,11 @@
             </div>
             <div class="mainslider__buttons">
               <div class="swiper-pagination"></div>
-              <div class="btn-prev">
-                <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M22 42C33.046 42 42 33.046 42 22C42 10.954 33.046 2 22 2C10.954 2 2 10.954 2 22C2 33.046 10.954 42 22 42Z"
-                    stroke-width="4"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M25 31L16 22L25 13"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+              <div class="btn-prev btn-swiper">
+                <svg class="arrow-prev"><use xlink:href="#arrow"></use></svg>
               </div>
-              <div class="btn-next">
-                <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M22 2C10.954 2 2 10.954 2 22C2 33.046 10.954 42 22 42C33.046 42 42 33.046 42 22C42 10.954 33.046 2 22 2Z"
-                    stroke-width="4"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M19 13L28 22L19 31"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+              <div class="btn-next btn-swiper">
+                <svg class="arrow-next"><use xlink:href="#arrow"></use></svg>
               </div>
             </div>
             <div class="mainslider__tag">ЇХ ЛАПИ В РОЗУМНИХ РУКАХ!</div>
@@ -151,11 +137,7 @@
                   </div>
                 </li>
               </ul>
-              <a
-                href="form.html"
-                class="brief-info__btn btn"
-                >Записатись</a
-              >
+              <a href="form.html" class="brief-info__btn btn">Записатись</a>
               <a href="tel:380443377300" class="brief-info__phone">
                 <picture>
                   <source
@@ -756,35 +738,11 @@
               </div>
             </div>
             <div class="brandslider__buttons">
-              <div class="brand-btn-prev">
-                <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M22 42C33.046 42 42 33.046 42 22C42 10.954 33.046 2 22 2C10.954 2 2 10.954 2 22C2 33.046 10.954 42 22 42Z"
-                    stroke-width="4"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M25 31L16 22L25 13"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+              <div class="brand-btn-prev btn-swiper">
+                <svg class="arrow-prev"><use xlink:href="#arrow"></use></svg>
               </div>
-              <div class="brand-btn-next">
-                <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M22 2C10.954 2 2 10.954 2 22C2 33.046 10.954 42 22 42C33.046 42 42 33.046 42 22C42 10.954 33.046 2 22 2Z"
-                    stroke-width="4"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M19 13L28 22L19 31"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+              <div class="brand-btn-next btn-swiper">
+                <svg class="arrow-next"><use xlink:href="#arrow"></use></svg>
               </div>
             </div>
           </article>
@@ -1015,6 +973,7 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          id="googleMaps"
         ></iframe>
       </div>
     </div>
