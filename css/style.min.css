@@ -214,8 +214,6 @@ h6 {
 }
 .header__nav {
   transition: all 0.5s ease 0s;
-}
-.header__nav ul {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -224,13 +222,13 @@ h6 {
   align-items: center;
   column-gap: 20px;
 }
-.header__nav ul a {
+.header__nav a {
   transition: all 0.2s ease 0s;
   font-weight: 500;
   color: #000;
 }
 @media (any-hover: hover) {
-  .header__nav ul a:hover {
+  .header__nav a:hover {
     color: #19d1aa;
   }
 }
@@ -283,8 +281,6 @@ h6 {
     width: 100%;
     left: 0;
     padding: 20px 0;
-  }
-  .header__nav ul {
     white-space: nowrap;
     column-gap: 0px;
     justify-content: space-between;
@@ -438,12 +434,12 @@ h6 {
     display: flex;
     flex-direction: column;
     padding: 45px 0 0;
-  }
-  body.active .header__nav ul {
-    font-size: 1.125rem;
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+  }
+  body.active .header__nav a {
+    font-size: 1.125rem;
   }
   body.active .header__right {
     flex-direction: column;
