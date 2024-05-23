@@ -30,7 +30,6 @@
     <div class="header__right">
       <div class="header__language">
         <a href="##">UA</a>
-        <span></span>
         <a href="##">EN</a>
       </div>
       <a href="form.html" class="header__btn-link btn">Записатись</a>
@@ -49,19 +48,37 @@
             <div class="appointment__title green__title">КОНТАКТИ</div>
             <div class="appointment__form">
               <div class="appointment__item">
-                <label for="name">Ім’я</label><input type="text" id="name" />
+                <p>
+                  <label for="name">Ім’я</label
+                  ><span><input type="text" id="name" /></span>
+                </p>
               </div>
               <div class="appointment__item">
-                <label for="phone">Телефон</label
-                ><input type="text" id="phone" />
+                <p>
+                  <label for="phone">Телефон</label
+                  ><span><input type="text" id="phone" /></span>
+                </p>
               </div>
               <div class="appointment__item">
-                <label for="textarea">Повідомлення</label>
-                <textarea name="textarea" id="textarea"></textarea>
+                <p>
+                  <label for="textarea">Повідомлення</label>
+                  <span>
+                    <textarea name="textarea" id="textarea"></textarea>
+                  </span>
+                </p>
               </div>
-              <div class="appointment__button">
-                <a href="##" class="appointment__btn btn">Відправити</a>
-              </div>
+            </div>
+            <div class="appointment__button">
+              <!-- <a href="##" class="appointment__btn btn">Відправити</a> -->
+              <p>
+                <span>
+                  <input
+                    class="appointment__btn btn"
+                    type="submit"
+                    value="Відправити"
+                  />
+                </span>
+              </p>
             </div>
             <div class="appointment__columns">
               <div class="appointment__column">

@@ -213,14 +213,14 @@ h6 {
   justify-content: space-between;
 }
 .header__nav {
-  transition: all 0.5s ease 0s;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  column-gap: 20px;
+  justify-content: space-between;
+  width: 786px;
 }
 .header__nav a {
   transition: all 0.2s ease 0s;
@@ -249,6 +249,7 @@ h6 {
   display: flex;
   align-items: center;
   user-select: none;
+  text-transform: uppercase;
   margin-right: 35px;
 }
 .header__language span {
@@ -282,8 +283,6 @@ h6 {
     left: 0;
     padding: 20px 0;
     white-space: nowrap;
-    column-gap: 0px;
-    justify-content: space-between;
   }
 }
 @media (max-width: 47.99875em) {
@@ -586,6 +585,7 @@ h6 {
 @media (max-width: 29.99875em) {
   .mainslider__gallary {
     border-radius: 10px;
+    height: 280px;
   }
 }
 
@@ -752,11 +752,7 @@ h6 {
   padding: 23px 89px;
   border-radius: 20px;
   font-size: 1.375rem;
-}
-.brief-info__phone {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  white-space: nowrap;
 }
 @media (max-width: 80.625em) {
   .brief-info__left {
@@ -780,18 +776,8 @@ h6 {
     flex-direction: column;
     row-gap: 36px;
   }
-  .brief-info__phone {
-    position: absolute;
-    top: -10px;
-    right: 0;
-  }
   .brief-info__btn {
     padding: 23px 89px;
-  }
-}
-@media (max-width: 29.99875em) {
-  .brief-info__phone {
-    top: 0px;
   }
 }
 
@@ -816,7 +802,7 @@ h6 {
   padding-bottom: 49%;
   width: 95%;
 }
-.player__content iframe {
+.player__content img {
   position: absolute;
   top: 0;
   left: 0;
@@ -849,7 +835,7 @@ h6 {
   .player__content {
     width: 100%;
   }
-  .player__content iframe {
+  .player__content img {
     border-radius: 20px;
   }
   .player__image {
@@ -948,12 +934,10 @@ h6 {
   flex: 0 1 32%;
   background: #19d1aa;
   border-radius: 20px;
-  transition: all 0.1s ease 0s;
   color: #fff;
 }
 .services__cat section.active {
   flex: 0 1 100%;
-  transition: all 0.4s ease-out 0s;
 }
 .services__cat.init .services__cat-title {
   user-select: none;
@@ -1166,6 +1150,7 @@ h6 {
 .laboratory section p {
   font-size: 1.125rem;
   font-weight: 500;
+  line-height: 1.22;
 }
 .laboratory section p span {
   font-weight: 400;
@@ -1416,6 +1401,11 @@ h6 {
     font-size: clamp(18px, 4vw, 32px);
   }
 }
+@media (max-width: 29.99875em) {
+  .pharmacy__image {
+    height: 245px;
+  }
+}
 
 .category {
   position: relative;
@@ -1462,6 +1452,7 @@ h6 {
   font-size: 1.25em;
   font-weight: 500;
   color: #594db3;
+  line-height: 1.5;
 }
 .category__list-title {
   font-size: 1.5em;
@@ -1642,7 +1633,7 @@ h6 {
   padding: 85px 0;
   position: relative;
 }
-.suppliers__item {
+.suppliers__item p {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1650,7 +1641,7 @@ h6 {
   display: flex;
   align-items: center;
 }
-.suppliers__item:nth-child(8) {
+.suppliers__item:nth-child(8) p {
   align-items: flex-start;
 }
 .suppliers__paws {
@@ -1713,7 +1704,7 @@ h6 {
     color: #fff;
   }
 }
-.suppliers__file input {
+.suppliers__file p span input {
   position: absolute;
   top: 0;
   left: 0;
@@ -1722,10 +1713,6 @@ h6 {
   opacity: 0;
   font-size: 0;
   cursor: pointer;
-}
-.suppliers__cap {
-  text-align: center;
-  margin: 30px 0 50px;
 }
 .suppliers__button {
   display: -webkit-box;
@@ -1741,12 +1728,21 @@ h6 {
   font-size: 1.375rem;
   font-weight: 500;
   padding: 23px 91px;
+  cursor: pointer;
 }
 @media (any-hover: hover) {
   .suppliers__btn.btn:hover {
     background: #594db3;
     color: #fff;
   }
+}
+.suppliers .kc_captcha {
+  text-align: center;
+  margin: 25px auto;
+  border: 1px solid;
+  width: 335px;
+  height: 90px;
+  display: block;
 }
 @media (max-width: 80.625em) {
   .suppliers__paws {
@@ -1767,8 +1763,7 @@ h6 {
   .suppliers__paws {
     display: none;
   }
-  .suppliers__form input,
-  .suppliers__form textarea {
+  .suppliers__form p span {
     width: 100%;
   }
   .suppliers__form label {
@@ -1805,9 +1800,6 @@ h6 {
   .suppliers__form textarea {
     height: 108px;
   }
-  .suppliers__cap {
-    margin: 25px 0;
-  }
 }
 @media (max-width: 29.99875em) {
   .suppliers__file.btn {
@@ -1816,6 +1808,9 @@ h6 {
     flex-direction: column;
     align-items: center;
     width: 100%;
+  }
+  .suppliers__button {
+    flex-direction: column;
   }
   .suppliers__btn.btn {
     flex-direction: column;
@@ -1983,6 +1978,30 @@ h6 {
   }
 }
 
+.phone {
+  position: fixed;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  right: 20px;
+  bottom: 20px;
+  animation: pulse 2.5s ease-in-out infinite;
+  z-index: 50;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.75);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
 .footer {
   background: #caf7ee;
   padding: 90px 0;
@@ -2184,7 +2203,7 @@ h6 {
 .appointment__form label[for=textarea] {
   margin-top: 15px;
 }
-.appointment__item {
+.appointment__item p {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -2192,7 +2211,7 @@ h6 {
   display: flex;
   align-items: center;
 }
-.appointment__item:nth-child(3) {
+.appointment__item:nth-child(3) p {
   align-items: flex-start;
 }
 .appointment__button {
@@ -2203,6 +2222,7 @@ h6 {
   display: flex;
   justify-content: center;
   margin-right: 110px;
+  margin-top: 25px;
 }
 .appointment__btn.btn {
   background: #19d1aa;
@@ -2210,6 +2230,7 @@ h6 {
   font-size: 1.375rem;
   font-weight: 500;
   padding: 23px 91px;
+  cursor: pointer;
 }
 @media (any-hover: hover) {
   .appointment__btn.btn:hover {
@@ -2333,6 +2354,7 @@ h6 {
   .appointment__button {
     margin-left: 260px;
   }
+  .appointment__form p span,
   .appointment__form input,
   .appointment__form textarea {
     width: 100%;
@@ -2362,7 +2384,6 @@ h6 {
   }
   .appointment__form input,
   .appointment__form textarea {
-    width: 100%;
     border-radius: 10px;
     font-size: 0.875em;
     padding: 10px 15px;
@@ -2412,6 +2433,10 @@ h6 {
   }
   .appointment__links {
     flex-direction: column;
+  }
+  .appointment__button {
+    flex-direction: column;
+    margin-top: 40px;
   }
   .appointment__btn.btn {
     flex-direction: column;

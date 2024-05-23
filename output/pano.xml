@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.1.14" apprev="18105">
+  <panorama hideabout="1" id="node1">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node1/room_01_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="-106.21" tilt="-11.63" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Рецепція" author="" comment="" latitude="" source="" heading="0" datetime="18.04.2024 08:55" nodeid="node1"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Зона очікування" skinid="spot_arrow" pan="-290.42" tilt="-27.98" url="{node2}" target="" id="Point01"/>
+      <hotspot description="" title="Оглядова №2" skinid="spot_arrow" pan="-331.99" tilt="-1.46" url="{node7}" target="" id="Point02"/>
+      <hotspot description="" title="Оглядова №1" skinid="spot_arrow" pan="-267.78" tilt="-1.7" url="{node3}" target="" id="Point03"/>
+      <hotspot description="" title="Оглядова №3" skinid="spot_arrow" pan="-33.98" tilt="0.68" url="{node8}" target="" id="Point04"/>
+      <hotspot description="" title="Лабораторія" skinid="spot_arrow" pan="-160.69" tilt="-1.4" url="{node10}" target="" id="Point05"/>
+      <hotspot description="" title="Маніпуляційна" skinid="spot_arrow_left" pan="-121.86" tilt="-0.93" url="{node11}" target="" id="Point06"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="700" ambientlevel="0.000" fov="52.000" clickmode="0" handcursor="0" rotz="0.000" tilt="-20.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_01-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="1000" rotx="0.000" mode="2" field="90.000" poster="media/room_01_preview.jpg" nodechangekeep="0" pan="-74.000" tiltsize="10.000">
+        <source url="media/room_01.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node15">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node15/room_01_1_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="-106.21" tilt="-11.63" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="!to_tur" longitude="" title="Рецепція 2" author="" comment="" latitude="" source="" heading="0" datetime="18.04.2024 08:55" nodeid="node15"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Рецепція" skinid="spot_play_current_view" pan="-86.39" tilt="-19.58" url="{node1}" target="" id="Point01"/>
+      <hotspot description="" title="Оглядова №2" skinid="spot_arrow" pan="-331.99" tilt="-1.46" url="{node7}" target="" id="Point02"/>
+      <hotspot description="" title="Оглядова №1" skinid="spot_arrow" pan="-267.78" tilt="-1.7" url="{node3}" target="" id="Point03"/>
+      <hotspot description="" title="Оглядова №3" skinid="spot_arrow" pan="-33.98" tilt="0.68" url="{node8}" target="" id="Point04"/>
+      <hotspot description="" title="Лабораторія" skinid="spot_arrow" pan="-160.69" tilt="-1.4" url="{node10}" target="" id="Point05"/>
+      <hotspot description="" title="Маніпуляційна" skinid="spot_arrow_left" pan="-121.86" tilt="-0.93" url="{node11}" target="" id="Point06"/>
+      <hotspot description="" title="Зона очікування 2" skinid="spot_arrow" pan="-289.57" tilt="-30.3" url="{node16}" target="" id="Point07"/>
+    </hotspots>
+    <media>
+      <image rotx="0.000" clickmode="0" height="1000" roty="0.000" rotz="0.000" handcursor="0" pan="-74.000" tilt="-20.000" stretch="1.000" id="Element01" fov="52.000" width="700">
+        <source url="media/room_01_to_play.png"/>
+      </image>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node2">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node2/room_02_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="-157.03" tilt="-5.31" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Зона очікування" author="" comment="" latitude="" source="" heading="0" datetime="18.04.2024 14:53" nodeid="node2"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Оглядова №1" skinid="spot_arrow_right" pan="-223.94" tilt="-11.15" url="{node3}" target="" id="Point02"/>
+      <hotspot description="" title="Аптека та магазин" skinid="spot_arrow" pan="-203.01" tilt="-21.55" url="{node5}" target="" id="Point03"/>
+      <hotspot description="" title="Оглядова №2" skinid="spot_arrow" pan="-65.42" tilt="-5.44" url="{node7}" target="" id="Point04"/>
+      <hotspot description="" title="Рецепція 2" skinid="spot_arrow" pan="-99.04" tilt="-24.6" url="{node15}" target="" id="Point01"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="700" ambientlevel="0.000" fov="42.500" clickmode="0" handcursor="0" rotz="0.000" tilt="-17.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_02-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="1000" rotx="0.000" mode="2" field="90.000" poster="media/room_02_preview.jpg" nodechangekeep="0" pan="-145.000" tiltsize="10.000">
+        <source url="media/room_02.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node16">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node16/room_02_1_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="-157.03" tilt="-5.31" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="!to_tur" longitude="" title="Зона очікування 2" author="" comment="" latitude="" source="" heading="0" datetime="18.04.2024 14:53" nodeid="node16"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Зона очікування" skinid="spot_play_current_view" pan="-154.77" tilt="-16.12" url="{node2}" target="" id="Point01"/>
+      <hotspot description="" title="Оглядова №1" skinid="spot_arrow_right" pan="-223.94" tilt="-11.15" url="{node3}" target="" id="Point02"/>
+      <hotspot description="" title="Аптека та магазин" skinid="spot_arrow" pan="-203.01" tilt="-21.55" url="{node5}" target="" id="Point03"/>
+      <hotspot description="" title="Оглядова №2" skinid="spot_arrow" pan="-65.42" tilt="-5.44" url="{node7}" target="" id="Point04"/>
+      <hotspot description="" title="Рецепція 2" skinid="spot_arrow" pan="-99.21" tilt="-24.87" url="{node15}" target="" id="Point05"/>
+    </hotspots>
+    <media>
+      <image rotx="0.000" clickmode="0" height="1000" roty="0.000" rotz="0.000" handcursor="0" pan="-145.000" tilt="-17.000" stretch="1.000" id="Element01" fov="42.500" width="700">
+        <source url="media/room_02_to_play.png"/>
+      </image>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node3">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node3/room_03_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="-30.19" tilt="-15.36" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Оглядова №1" author="" comment="" latitude="" source="" heading="0" datetime="18.04.2024 17:25" nodeid="node3"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Інструменти" skinid="spot_play_current_view" pan="-57.77" tilt="-26.1" url="{node4}" target="" id="Point02"/>
+      <hotspot description="" title="Зона очікування 2" skinid="spot_arrow" pan="-158.23" tilt="-1.33" url="{node16}" target="" id="Point01"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="2000" ambientlevel="0.000" fov="90.000" clickmode="0" handcursor="0" rotz="0.000" tilt="-18.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_03_01-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="2000" rotx="0.000" mode="2" field="90.000" poster="media/room_03_01_preview.jpg" nodechangekeep="0" pan="-28.000" tiltsize="10.000">
+        <source url="media/room_03_01.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node4">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node4/room_03_1_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="-30.19" tilt="-15.36" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="!to_tur" longitude="" title="Інструменти" author="" comment="" latitude="" source="" heading="0" datetime="18.04.2024 17:25" nodeid="node4"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Оглядова №1" skinid="spot_play_current_view" pan="-57.94" tilt="-26.23" url="{node3}" target="" id="Point01"/>
+      <hotspot description="" title="Зона очікування 2" skinid="spot_arrow" pan="-158.68" tilt="-1.97" url="{node16}" target="" id="Point02"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="2000" ambientlevel="0.000" fov="97.600" clickmode="0" handcursor="0" rotz="0.000" tilt="-17.000" pansize="10.000" stretch="1.000" loop="1" startmutedmobile="0" id="Element01" roty="0.000" height="2000" rotx="0.000" mode="2" field="90.000" poster="media/room_03_02_preview.jpg" nodechangekeep="0" pan="-28.000" tiltsize="10.000">
+        <source url="media/room_03_02.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node5">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node5/room_04_01_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="-130.74" tilt="-9.12" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Аптека та магазин" author="" comment="" latitude="" source="" heading="0" datetime="20.04.2024 07:46" nodeid="node5"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Оглядова №1" skinid="spot_arrow" pan="-268.13" tilt="-1.99" url="{node3}" target="" id="Point02"/>
+      <hotspot description="" title="Магазин" skinid="spot_play" pan="-174.44" tilt="-17.62" url="{node6}" target="" id="Point03"/>
+      <hotspot description="" title="Зона очікування 2" skinid="spot_arrow" pan="-332.17" tilt="-24.16" url="{node16}" target="" id="Point01"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="1000" ambientlevel="0.000" fov="63.000" clickmode="0" handcursor="0" rotz="0.000" tilt="-18.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_04_01-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="1000" rotx="0.000" mode="2" field="90.000" poster="media/room_04_01_preview.jpg" nodechangekeep="0" pan="-114.000" tiltsize="10.000">
+        <source url="media/room_04_01.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node6">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node6/room_04_02_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="-43.5" tilt="-9.38" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="!to_tur" longitude="" title="Магазин" author="" comment="" latitude="" source="" heading="0" datetime="20.04.2024 09:05" nodeid="node6"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Аптека та магазин" skinid="spot_play" pan="-342.64" tilt="-17.11" url="{node5}" target="" id="Point01"/>
+      <hotspot description="" title="Оглядова №1" skinid="spot_arrow" pan="-137.71" tilt="-3.22" url="{node3}" target="" id="Point02"/>
+      <hotspot description="" title="Зона очікування 2" skinid="spot_arrow" pan="-200.49" tilt="-23.7" url="{node16}" target="" id="Point03"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="1000" ambientlevel="0.000" fov="67.400" clickmode="0" handcursor="0" rotz="0.000" tilt="-21.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_04_02-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="1000" rotx="0.000" mode="2" field="90.000" poster="media/room_04_02_preview.jpg" nodechangekeep="0" pan="-41.000" tiltsize="10.000">
+        <source url="media/room_04_02.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node7">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node7/room_05_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="28.67" tilt="-10.55" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Оглядова №2" author="" comment="" latitude="" source="" heading="0" datetime="20.04.2024 13:35" nodeid="node7"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Зона очікування 2" skinid="spot_arrow" pan="-293.18" tilt="-1.53" url="{node16}" target="" id="Point01"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="2000" ambientlevel="0.000" fov="90.000" clickmode="0" handcursor="0" rotz="0.000" tilt="-20.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_05-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="2000" rotx="0.000" mode="2" field="90.000" poster="media/room_05_preview.jpg" nodechangekeep="0" pan="-331.000" tiltsize="10.000">
+        <source url="media/room_05.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node8">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node8/room_06_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="25.35" tilt="-12.71" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Оглядова №3" author="" comment="" latitude="" source="" heading="0" datetime="20.04.2024 16:49" nodeid="node8"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Спеціальний стіл" skinid="spot_play_current_view" pan="-1.66" tilt="-25.16" url="{node9}" target="" id="Point01"/>
+      <hotspot description="" title="Рецепція 2" skinid="spot_arrow" pan="-149.56" tilt="-4.17" url="{node15}" target="" id="Point02"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="2000" ambientlevel="0.000" fov="79.000" clickmode="0" handcursor="0" rotz="0.000" tilt="-20.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_06_01-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="2000" rotx="0.000" mode="2" field="90.000" poster="media/room_06_01_preview.jpg" nodechangekeep="0" pan="-320.000" tiltsize="10.000">
+        <source url="media/room_06_01.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node9">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node9/room_06_1_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="25.35" tilt="-12.71" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="!to_tur" longitude="" title="Спеціальний стіл" author="" comment="" latitude="" source="" heading="0" datetime="20.04.2024 16:49" nodeid="node9"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Оглядова №3" skinid="spot_play_current_view" pan="-317.61" tilt="-12.71" url="{node8}" target="" id="Point01"/>
+      <hotspot description="" title="Рецепція 2" skinid="spot_arrow" pan="-149.5" tilt="-4" url="{node15}" target="" id="Point02"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="2000" ambientlevel="0.000" fov="77.300" clickmode="0" handcursor="0" rotz="0.000" tilt="-16.990" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_06_02-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="2000" rotx="0.000" mode="2" field="90.000" poster="media/room_06_02_preview.jpg" nodechangekeep="0" pan="-359.040" tiltsize="10.000">
+        <source url="media/room_06_02.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node10">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node10/room_07_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="32.76" tilt="-12.3" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Лабораторія" author="" comment="" latitude="" source="" heading="0" datetime="21.04.2024 10:10" nodeid="node10"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Рецепція 2" skinid="spot_arrow" pan="-89.58" tilt="1.27" url="{node15}" target="" id="Point01"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="700" ambientlevel="0.000" fov="62.000" clickmode="0" handcursor="0" rotz="0.000" tilt="-25.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_07-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="1000" rotx="0.000" mode="2" field="90.000" poster="media/room_07_preview.jpg" nodechangekeep="0" pan="-340.000" tiltsize="10.000">
+        <source url="media/room_07.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node11">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node11/room_08_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="7.83" tilt="-10.05" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Маніпуляційна" author="" comment="" latitude="" source="" heading="0" datetime="21.04.2024 11:57" nodeid="node11"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Реанімація та інтенсивна терапія" skinid="spot_arrow" pan="-344.38" tilt="-21.86" url="{node12}" target="" id="Point02"/>
+      <hotspot description="" title="Рецепція 2" skinid="spot_arrow" pan="-217.74" tilt="-3.6" url="{node15}" target="" id="Point01"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="650" ambientlevel="0.000" fov="44.700" clickmode="0" handcursor="0" rotz="0.000" tilt="-17.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_08-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="1000" rotx="0.000" mode="2" field="90.000" poster="media/room_08_preview.jpg" nodechangekeep="0" pan="-360.000" tiltsize="10.000">
+        <source url="media/room_08.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node17">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node17/room_08_1_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="7.83" tilt="-10.05" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="!to_tur" longitude="" title="Маніпуляційна 2" author="" comment="" latitude="" source="" heading="0" datetime="21.04.2024 11:57" nodeid="node17"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Маніпуляційна" skinid="spot_play_current_view" pan="-12.18" tilt="-7.49" url="{node11}" target="" id="Point01"/>
+      <hotspot description="" title="Реанімація та інтенсивна терапія" skinid="spot_arrow" pan="-344.38" tilt="-21.86" url="{node12}" target="" id="Point02"/>
+      <hotspot description="" title="Рецепція 2" skinid="spot_arrow" pan="-217.74" tilt="-3.6" url="{node15}" target="" id="Point01"/>
+    </hotspots>
+    <media>
+      <image rotx="0.000" clickmode="0" height="1000" roty="0.000" rotz="0.000" handcursor="0" pan="360.000" tilt="-17.000" stretch="1.000" id="Element01" fov="44.700" width="650">
+        <source url="media/room_08_to_play.png"/>
+      </image>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node12">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node12/room_09_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="63.45" tilt="-12.47" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Реанімація та інтенсивна терапія" author="" comment="" latitude="" source="" heading="0" datetime="21.04.2024 12:59" nodeid="node12"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Хірургія" skinid="spot_arrow" pan="-20.45" tilt="-32.21" url="{node13}" target="" id="Point02"/>
+      <hotspot description="" title="Маніпуляційна 2" skinid="spot_arrow" pan="-210.49" tilt="-24.37" url="{node17}" target="118.8/-7.1/max" id="Point01"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="2000" ambientlevel="0.000" fov="72.300" clickmode="0" handcursor="0" rotz="0.000" tilt="-19.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_09-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="2000" rotx="0.000" mode="2" field="90.000" poster="media/room_09_preview.jpg" nodechangekeep="0" pan="-300.000" tiltsize="10.000">
+        <source url="media/room_09.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node18">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node18/room_09_1_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="63.45" tilt="-12.47" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="!to_tur" longitude="" title="Реанімація та інтенсивна терапія 2" author="" comment="" latitude="" source="" heading="0" datetime="21.04.2024 12:59" nodeid="node18"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Реанімація та інтенсивна терапія" skinid="spot_play_current_view" pan="-287.66" tilt="-14.62" url="{node12}" target="" id="Point01"/>
+      <hotspot description="" title="Хірургія" skinid="spot_arrow" pan="-20.45" tilt="-32.21" url="{node13}" target="" id="Point02"/>
+      <hotspot description="" title="Маніпуляційна 2" skinid="spot_arrow" pan="-210.27" tilt="-24" url="{node17}" target="118.6/-5.4/max" id="Point03"/>
+    </hotspots>
+    <media>
+      <image rotx="0.000" clickmode="0" height="700" roty="0.000" rotz="0.000" handcursor="0" pan="-300.000" tilt="-19.000" stretch="1.000" id="Element01" fov="72.300" width="700">
+        <source url="media/room_09_to_play.png"/>
+      </image>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node13">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node13/room_10_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="-49.32" tilt="-9.09" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Хірургія" author="" comment="" latitude="" source="" heading="0" datetime="21.04.2024 15:52" nodeid="node13"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Апарат для анестезії" skinid="spot_play_current_view" pan="-342.28" tilt="-12.82" url="{node14}" target="" id="Point02"/>
+      <hotspot description="" title="Реанімація та інтенсивна терапія 2" skinid="spot_arrow" pan="-189.82" tilt="-9.14" url="{node18}" target="150.7/-8.7/max" id="Point01"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="1000" ambientlevel="0.000" fov="72.700" clickmode="0" handcursor="0" rotz="0.000" tilt="-19.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_10_01-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="1000" rotx="0.000" mode="2" field="90.000" poster="media/room_10_01_preview.jpg" nodechangekeep="0" pan="-54.000" tiltsize="10.000">
+        <source url="media/room_10_01.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node14">
+    <input leveltilesize="510" height="2444" leveltileurl="tiles/node14/room_10_1_cf_%c_l_%l_c_%x_tile_%y.jpg" overlap="1" levelingpitch="0" levelbiashidpi="0.800" levelbias="0.800" levelingroll="0" width="2444">
+      <level height="2444" predecode="0" preload="0" width="2444"/>
+      <level height="1222" predecode="0" preload="0" width="1222"/>
+      <level height="611" predecode="0" preload="0" width="611"/>
+      <level height="305" predecode="1" preload="1" width="305"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="3" pannorth="0">
+      <start projection="4" pan="0" tilt="0" fov="112.62"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" scaletofit="1" pan="360" fovstereographic="270" tilt="90" fov="120"/>
+    </view>
+    <userdata customnodeid="" description="" copyright="" info="" tags="room" longitude="" title="Апарат для анестезії" author="" comment="" latitude="" source="" heading="0" datetime="21.04.2024 15:52" nodeid="node14"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label backgroundalpha="1" border="1" textalpha="1" wordwrap="1" height="20" background="1" bordercolor="0x000000" borderradius="1" borderalpha="1" enabled="0" backgroundcolor="0x000000" width="180" textcolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" title="Хірургія" skinid="spot_play_current_view" pan="-52.23" tilt="-15.26" url="{node13}" target="" id="Point01"/>
+      <hotspot description="" title="Реанімація та інтенсивна терапія 2" skinid="spot_arrow" pan="-189.97" tilt="-8.16" url="{node18}" target="150.5/-6.4/max" id="Point02"/>
+    </hotspots>
+    <media>
+      <video level="1.000" width="1000" ambientlevel="0.000" fov="64.000" clickmode="0" handcursor="0" rotz="0.000" tilt="-19.000" pansize="10.000" stretch="1.000" loop="1" maskimage="media/room_10_02-mask.png" startmutedmobile="0" id="Element01" roty="0.000" height="1000" rotx="0.000" mode="2" field="90.000" poster="media/room_10_02_preview.jpg" nodechangekeep="0" pan="-345.000" tiltsize="10.000">
+        <source url="media/room_10_02.mp4"/>
+      </video>
+    </media>
+    <transition zoomfov="20" type="crossdissolve" softedge="0" zoomafteroutfov="20" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomin="0" zoomspeed="2" zoomafterinfov="90"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control dblclickfullscreen="1" hideabout="1" sensitivity="8" lockedmouse="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" invertcontrol="1" rubberband="0" simulatemass="1" speedwheel="1" lockedkeyboard="0" contextfullscreen="1" contextprojections="0"/>
+  </panorama>
+  <masternode>
+    <userdata customnodeid="" description="" copyright="" info="" tags="" longitude="" title="" author="" comment="" latitude="" source="" heading="0" datetime="" nodeid="master"/>
+  </masternode>
+</tour>
